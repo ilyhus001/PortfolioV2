@@ -173,6 +173,10 @@ nav ul li a:hover {
     .row {
         flex-direction: column;
     }
+
+    .education-container {
+        flex-direction: column;
+    }
 }
 
 /* Skills */
@@ -187,7 +191,6 @@ h1{
 }
 
 p {
-    
     font-weight: 300;
     line-height: 22px;
     padding: 10px
@@ -232,6 +235,53 @@ p {
     width: 30px; /* Ensures consistent size for custom icons/images */
     height: 30px;
   }
+
+.education {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.education-container:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.education-container{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.my-education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    text-align: left;
+    padding-right: 10px;  
+    height: auto; 
+}
+
+.my-education p {
+    padding: 0;
+}
+
+.my-education .grey {
+    color: grey;
+    margin: 0;
+}
+
+
+.courses {
+    margin-top: 20px;
+}
+
 
 .fa-brands {
     font-size: 30px;
